@@ -23,7 +23,7 @@ export default {
     },
     methods: {
         chartConstructor(chartType, chartData, chartOptions) {
-            const chartElement = document.getElementById('canvas').getContext('2d');
+            const chartElement = document.getElementById('canvas');
             new Chart(chartElement, {
                 type: chartType,
                 data: chartData,
