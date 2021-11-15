@@ -18,7 +18,39 @@
         type: String
       },
       json: {
-        type: Object
+        type: Object,
+        default() {
+          return {
+            labels: 
+              ["Jan1", "Jan2", "Jan3", "Jan4", "Jan5", "Jan6",  "Jan7"],
+            datasets: [
+              {
+                label: "Data 1",
+                data: [this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt()],
+                backgroundColor: "#0e37ec7e",
+                borderColor: "#0e37ec",
+                lineTension: 0,
+                pointBackgroundColor: "#0e2794",
+              },
+              {
+                label: "Data 2",
+                data: [this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt()],
+                backgroundColor: "#df80148a",
+                borderColor: "#df8013",
+                lineTension: 0,
+                pointBackgroundColor: "#864f0f",
+              },
+              {
+                label: "Date 3",
+                data: [this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt()],
+                borderColor: "#212121",
+                lineTension: 0,
+                type: 'line',
+                pointBackgroundColor: "#333333",
+              },
+            ],
+          }
+        }
       },
       api: {
         type: String
