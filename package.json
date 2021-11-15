@@ -1,12 +1,16 @@
 {
-  "name": "cfi",
+  "name": "@leanvitale/cfi",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "npm run build:wc & npm run build:lib",
+    "lint": "vue-cli-service lint",
+    "build:lib": "vue-cli-service build --target lib --name cfi 'src/main.js'",
+    "build:wc": "vue-cli-service build --target wc --name cfi 'src/components/*.vue'"
   },
+  "main": "dist/cfi.common.js",
+  "unpkg": "dist/cfi.min.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
