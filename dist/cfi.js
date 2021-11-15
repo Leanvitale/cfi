@@ -23065,12 +23065,12 @@ var Chartvue_type_template_id_5b79e061_shadow_staticRenderFns = []
 
 // CONCATENATED MODULE: ./src/components/Chart.vue?vue&type=template&id=5b79e061&shadow
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/RootChart.vue?vue&type=template&id=29b9a141&
-var RootChartvue_type_template_id_29b9a141_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var RootChartvue_type_template_id_29b9a141_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('canvas',{attrs:{"id":"canvas","height":"400px"}})])}]
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/RootChart.vue?vue&type=template&id=6f9ad8c0&
+var RootChartvue_type_template_id_6f9ad8c0_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.chartData)?_c('div',{staticClass:"chart"},[_c('canvas',{attrs:{"id":"canvas","height":"400px"}})]):_vm._e()}
+var RootChartvue_type_template_id_6f9ad8c0_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/RootChart.vue?vue&type=template&id=29b9a141&
+// CONCATENATED MODULE: ./src/components/RootChart.vue?vue&type=template&id=6f9ad8c0&
 
 // EXTERNAL MODULE: ./node_modules/chart.js/dist/Chart.js
 var Chart = __webpack_require__("30ef");
@@ -23104,7 +23104,7 @@ var Chart_default = /*#__PURE__*/__webpack_require__.n(Chart);
   },
   methods: {
     chartConstructor(chartType, chartData, chartOptions) {
-      const chartElement = document.getElementById('canvas');
+      const chartElement = document.querySelector("canvas");
       new Chart_default.a(chartElement, {
         type: chartType,
         data: chartData,
@@ -23126,8 +23126,8 @@ var Chart_default = /*#__PURE__*/__webpack_require__.n(Chart);
 
 var RootChart_component = normalizeComponent(
   components_RootChartvue_type_script_lang_js_,
-  RootChartvue_type_template_id_29b9a141_render,
-  RootChartvue_type_template_id_29b9a141_staticRenderFns,
+  RootChartvue_type_template_id_6f9ad8c0_render,
+  RootChartvue_type_template_id_6f9ad8c0_staticRenderFns,
   false,
   null,
   null,
@@ -23324,12 +23324,12 @@ var Chartshadow_component = normalizeComponent(
 )
 
 /* harmony default export */ var Chartshadow = (Chartshadow_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/RootChart.vue?vue&type=template&id=3cc91f7a&shadow
-var RootChartvue_type_template_id_3cc91f7a_shadow_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var RootChartvue_type_template_id_3cc91f7a_shadow_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('canvas',{attrs:{"id":"canvas","height":"400px"}})])}]
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/RootChart.vue?vue&type=template&id=dd33afce&shadow
+var RootChartvue_type_template_id_dd33afce_shadow_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.chartData)?_c('div',{staticClass:"chart"},[_c('canvas',{attrs:{"id":"canvas","height":"400px"}})]):_vm._e()}
+var RootChartvue_type_template_id_dd33afce_shadow_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/RootChart.vue?vue&type=template&id=3cc91f7a&shadow
+// CONCATENATED MODULE: ./src/components/RootChart.vue?vue&type=template&id=dd33afce&shadow
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/RootChart.vue?vue&type=script&lang=js&shadow
 //
@@ -23359,7 +23359,7 @@ var RootChartvue_type_template_id_3cc91f7a_shadow_staticRenderFns = [function ()
   },
   methods: {
     chartConstructor(chartType, chartData, chartOptions) {
-      const chartElement = document.getElementById('canvas');
+      const chartElement = document.querySelector("canvas");
       new Chart_default.a(chartElement, {
         type: chartType,
         data: chartData,
@@ -23381,8 +23381,8 @@ var RootChartvue_type_template_id_3cc91f7a_shadow_staticRenderFns = [function ()
 
 var RootChartshadow_component = normalizeComponent(
   components_RootChartvue_type_script_lang_js_shadow,
-  RootChartvue_type_template_id_3cc91f7a_shadow_render,
-  RootChartvue_type_template_id_3cc91f7a_shadow_staticRenderFns,
+  RootChartvue_type_template_id_dd33afce_shadow_render,
+  RootChartvue_type_template_id_dd33afce_shadow_staticRenderFns,
   false,
   null,
   null,

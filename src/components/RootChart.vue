@@ -1,5 +1,5 @@
 <template>
-   <div>
+   <div class="chart" v-if="chartData">
      <canvas id="canvas" height="400px"></canvas>
    </div>
 </template>
@@ -23,7 +23,7 @@ export default {
     },
     methods: {
         chartConstructor(chartType, chartData, chartOptions) {
-            const chartElement = document.getElementById('canvas');
+            const chartElement = document.querySelector("canvas");
             new Chart(chartElement, {
                 type: chartType,
                 data: chartData,
