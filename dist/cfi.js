@@ -23061,12 +23061,12 @@ var Chartvue_type_template_id_79059b78_shadow_staticRenderFns = []
 
 // CONCATENATED MODULE: ./src/components/Chart.vue?vue&type=template&id=79059b78&shadow
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/root/RootChart.vue?vue&type=template&id=7b55012a&
-var RootChartvue_type_template_id_7b55012a_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var RootChartvue_type_template_id_7b55012a_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('canvas',{attrs:{"id":"canvas","height":"400px"}})])}]
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/root/RootChart.vue?vue&type=template&id=3fccb770&
+var RootChartvue_type_template_id_3fccb770_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var RootChartvue_type_template_id_3fccb770_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('canvas',{attrs:{"id":"canvas","height":"400px"}})])}]
 
 
-// CONCATENATED MODULE: ./src/root/RootChart.vue?vue&type=template&id=7b55012a&
+// CONCATENATED MODULE: ./src/root/RootChart.vue?vue&type=template&id=3fccb770&
 
 // EXTERNAL MODULE: ./node_modules/chart.js/dist/Chart.js
 var Chart = __webpack_require__("30ef");
@@ -23099,7 +23099,7 @@ var Chart_default = /*#__PURE__*/__webpack_require__.n(Chart);
   },
   methods: {
     chartConstructor(chartType, chartData, chartOptions) {
-      const chartElement = document.getElementById('canvas').getContext('2d');
+      const chartElement = document.getElementById('canvas');
       new Chart_default.a(chartElement, {
         type: chartType,
         data: chartData,
@@ -23121,8 +23121,8 @@ var Chart_default = /*#__PURE__*/__webpack_require__.n(Chart);
 
 var RootChart_component = normalizeComponent(
   root_RootChartvue_type_script_lang_js_,
-  RootChartvue_type_template_id_7b55012a_render,
-  RootChartvue_type_template_id_7b55012a_staticRenderFns,
+  RootChartvue_type_template_id_3fccb770_render,
+  RootChartvue_type_template_id_3fccb770_staticRenderFns,
   false,
   null,
   null,
