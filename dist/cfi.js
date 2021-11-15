@@ -23086,27 +23086,23 @@ var Chart_default = /*#__PURE__*/__webpack_require__.n(Chart);
     chartData: Object,
     chartOptions: Object
   },
-
-  mounted() {
+  mounted: function mounted() {
     this.chartConstructor(this.chartType, this.chartData, this.chartOptions);
   },
-
   watch: {
-    chartData() {
+    chartData: function chartData() {
       this.chartConstructor(this.chartType, this.chartData, this.chartOptions);
     }
-
   },
   methods: {
-    chartConstructor(chartType, chartData, chartOptions) {
-      const chartElement = document.getElementById('canvas').getContext('2d');
+    chartConstructor: function chartConstructor(chartType, chartData, chartOptions) {
+      var chartElement = document.getElementById('canvas').getContext('2d');
       new Chart_default.a(chartElement, {
         type: chartType,
         data: chartData,
         options: chartOptions
       });
     }
-
   }
 });
 // CONCATENATED MODULE: ./src/components/RootChart.vue?vue&type=script&lang=js&
@@ -23127,7 +23123,7 @@ var RootChart_component = normalizeComponent(
   null,
   null,
   null
-  ,true
+  
 )
 
 /* harmony default export */ var RootChart = (RootChart_component.exports);
