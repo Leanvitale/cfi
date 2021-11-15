@@ -23054,25 +23054,25 @@ var Buttonshadow_component = normalizeComponent(
 )
 
 /* harmony default export */ var Buttonshadow = (Buttonshadow_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Chart.vue?vue&type=template&id=79059b78&shadow
-var Chartvue_type_template_id_79059b78_shadow_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[(_vm.chartData)?_c('RootChart',{attrs:{"chartData":_vm.chartData,"chartOptions":_vm.options,"chartType":_vm.type}}):_vm._e()],1)}
-var Chartvue_type_template_id_79059b78_shadow_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Chart.vue?vue&type=template&id=40340c56&shadow
+var Chartvue_type_template_id_40340c56_shadow_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[(_vm.chartData)?_c('RootChart',{attrs:{"chartData":_vm.chartData,"chartOptions":_vm.options,"chartType":_vm.type}}):_vm._e()],1)}
+var Chartvue_type_template_id_40340c56_shadow_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/Chart.vue?vue&type=template&id=79059b78&shadow
+// CONCATENATED MODULE: ./src/components/Chart.vue?vue&type=template&id=40340c56&shadow
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/root/RootChart.vue?vue&type=template&id=3fccb770&
-var RootChartvue_type_template_id_3fccb770_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var RootChartvue_type_template_id_3fccb770_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('canvas',{attrs:{"id":"canvas","height":"400px"}})])}]
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/RootChart.vue?vue&type=template&id=7b3a8b36&
+var RootChartvue_type_template_id_7b3a8b36_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var RootChartvue_type_template_id_7b3a8b36_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('canvas',{attrs:{"id":"canvas","height":"400px"}})])}]
 
 
-// CONCATENATED MODULE: ./src/root/RootChart.vue?vue&type=template&id=3fccb770&
+// CONCATENATED MODULE: ./src/components/RootChart.vue?vue&type=template&id=7b3a8b36&
 
 // EXTERNAL MODULE: ./node_modules/chart.js/dist/Chart.js
 var Chart = __webpack_require__("30ef");
 var Chart_default = /*#__PURE__*/__webpack_require__.n(Chart);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/root/RootChart.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/RootChart.vue?vue&type=script&lang=js&
 //
 //
 //
@@ -23099,7 +23099,7 @@ var Chart_default = /*#__PURE__*/__webpack_require__.n(Chart);
   },
   methods: {
     chartConstructor(chartType, chartData, chartOptions) {
-      const chartElement = document.getElementById('canvas');
+      const chartElement = document.getElementById('canvas').getContext('2d');
       new Chart_default.a(chartElement, {
         type: chartType,
         data: chartData,
@@ -23109,9 +23109,9 @@ var Chart_default = /*#__PURE__*/__webpack_require__.n(Chart);
 
   }
 });
-// CONCATENATED MODULE: ./src/root/RootChart.vue?vue&type=script&lang=js&
- /* harmony default export */ var root_RootChartvue_type_script_lang_js_ = (RootChartvue_type_script_lang_js_); 
-// CONCATENATED MODULE: ./src/root/RootChart.vue
+// CONCATENATED MODULE: ./src/components/RootChart.vue?vue&type=script&lang=js&
+ /* harmony default export */ var components_RootChartvue_type_script_lang_js_ = (RootChartvue_type_script_lang_js_); 
+// CONCATENATED MODULE: ./src/components/RootChart.vue
 
 
 
@@ -23120,9 +23120,9 @@ var Chart_default = /*#__PURE__*/__webpack_require__.n(Chart);
 /* normalize component */
 
 var RootChart_component = normalizeComponent(
-  root_RootChartvue_type_script_lang_js_,
-  RootChartvue_type_template_id_3fccb770_render,
-  RootChartvue_type_template_id_3fccb770_staticRenderFns,
+  components_RootChartvue_type_script_lang_js_,
+  RootChartvue_type_template_id_7b3a8b36_render,
+  RootChartvue_type_template_id_7b3a8b36_staticRenderFns,
   false,
   null,
   null,
@@ -23202,8 +23202,8 @@ var RootChart_component = normalizeComponent(
 
 var Chartshadow_component = normalizeComponent(
   components_Chartvue_type_script_lang_js_shadow,
-  Chartvue_type_template_id_79059b78_shadow_render,
-  Chartvue_type_template_id_79059b78_shadow_staticRenderFns,
+  Chartvue_type_template_id_40340c56_shadow_render,
+  Chartvue_type_template_id_40340c56_shadow_staticRenderFns,
   false,
   null,
   null,
@@ -23212,6 +23212,72 @@ var Chartshadow_component = normalizeComponent(
 )
 
 /* harmony default export */ var Chartshadow = (Chartshadow_component.exports);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/RootChart.vue?vue&type=template&id=766f682f&shadow
+var RootChartvue_type_template_id_766f682f_shadow_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var RootChartvue_type_template_id_766f682f_shadow_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('canvas',{attrs:{"id":"canvas","height":"400px"}})])}]
+
+
+// CONCATENATED MODULE: ./src/components/RootChart.vue?vue&type=template&id=766f682f&shadow
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/RootChart.vue?vue&type=script&lang=js&shadow
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ var RootChartvue_type_script_lang_js_shadow = ({
+  props: {
+    chartType: String,
+    chartData: Object,
+    chartOptions: Object
+  },
+
+  mounted() {
+    this.chartConstructor(this.chartType, this.chartData, this.chartOptions);
+  },
+
+  watch: {
+    chartData() {
+      this.chartConstructor(this.chartType, this.chartData, this.chartOptions);
+    }
+
+  },
+  methods: {
+    chartConstructor(chartType, chartData, chartOptions) {
+      const chartElement = document.getElementById('canvas').getContext('2d');
+      new Chart_default.a(chartElement, {
+        type: chartType,
+        data: chartData,
+        options: chartOptions
+      });
+    }
+
+  }
+});
+// CONCATENATED MODULE: ./src/components/RootChart.vue?vue&type=script&lang=js&shadow
+ /* harmony default export */ var components_RootChartvue_type_script_lang_js_shadow = (RootChartvue_type_script_lang_js_shadow); 
+// CONCATENATED MODULE: ./src/components/RootChart.vue?shadow
+
+
+
+
+
+/* normalize component */
+
+var RootChartshadow_component = normalizeComponent(
+  components_RootChartvue_type_script_lang_js_shadow,
+  RootChartvue_type_template_id_766f682f_shadow_render,
+  RootChartvue_type_template_id_766f682f_shadow_staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  ,true
+)
+
+/* harmony default export */ var RootChartshadow = (RootChartshadow_component.exports);
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-wc.js
 
 
@@ -23230,6 +23296,9 @@ window.customElements.define('cfi-button', vue_wc_wrapper(external_Vue_default.a
 
 
 window.customElements.define('cfi-chart', vue_wc_wrapper(external_Vue_default.a, Chartshadow))
+
+
+window.customElements.define('cfi-root-chart', vue_wc_wrapper(external_Vue_default.a, RootChartshadow))
 
 /***/ }),
 

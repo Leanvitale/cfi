@@ -9,7 +9,7 @@
 </template>
 
 <script>
-  import RootChart from '../root/RootChart.vue'
+  import RootChart from './RootChart.vue'
 
   export default {
     props: ['type', 'json', 'api', 'options'],
