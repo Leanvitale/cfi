@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <Chart :type="type" :options="options" :json="dataChart" style="width: 100%"></Chart>
+    <Chart :type="type"></Chart>
     <button @click="changeJSON()">Change URL</button>
   </v-app>
 </template>
@@ -9,7 +9,7 @@
 import Chart from './components/Chart.vue';
 
 export default {
-  name: 'App',
+  name: 'App-Test',
   data() {
     return {
       api: null,

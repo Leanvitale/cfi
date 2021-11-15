@@ -22972,18 +22972,20 @@ function normalizeComponent (
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AnotherButton.vue?vue&type=template&id=7da6a898&shadow
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AnotherButton.vue?vue&type=template&id=49adb05a&shadow
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('button',[_vm._v(_vm._s(_vm.label))])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/AnotherButton.vue?vue&type=template&id=7da6a898&shadow
+// CONCATENATED MODULE: ./src/components/AnotherButton.vue?vue&type=template&id=49adb05a&shadow
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AnotherButton.vue?vue&type=script&lang=js&shadow
 //
 //
 //
 /* harmony default export */ var AnotherButtonvue_type_script_lang_js_shadow = ({
+  name: 'AnotherButton',
+
   data() {
     return {
       label: 'Demo2'
@@ -23013,18 +23015,20 @@ var component = normalizeComponent(
 )
 
 /* harmony default export */ var AnotherButtonshadow = (component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Button.vue?vue&type=template&id=bcbd9592&shadow
-var Buttonvue_type_template_id_bcbd9592_shadow_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('button',[_vm._v(_vm._s(_vm.label))])}
-var Buttonvue_type_template_id_bcbd9592_shadow_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Button.vue?vue&type=template&id=023de77f&shadow
+var Buttonvue_type_template_id_023de77f_shadow_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('button',[_vm._v(_vm._s(_vm.label))])}
+var Buttonvue_type_template_id_023de77f_shadow_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/Button.vue?vue&type=template&id=bcbd9592&shadow
+// CONCATENATED MODULE: ./src/components/Button.vue?vue&type=template&id=023de77f&shadow
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Button.vue?vue&type=script&lang=js&shadow
 //
 //
 //
 /* harmony default export */ var Buttonvue_type_script_lang_js_shadow = ({
+  name: 'ButtonCustom',
+
   data() {
     return {
       label: 'Demo'
@@ -23044,8 +23048,8 @@ var Buttonvue_type_template_id_bcbd9592_shadow_staticRenderFns = []
 
 var Buttonshadow_component = normalizeComponent(
   components_Buttonvue_type_script_lang_js_shadow,
-  Buttonvue_type_template_id_bcbd9592_shadow_render,
-  Buttonvue_type_template_id_bcbd9592_shadow_staticRenderFns,
+  Buttonvue_type_template_id_023de77f_shadow_render,
+  Buttonvue_type_template_id_023de77f_shadow_staticRenderFns,
   false,
   null,
   null,
@@ -23054,19 +23058,19 @@ var Buttonshadow_component = normalizeComponent(
 )
 
 /* harmony default export */ var Buttonshadow = (Buttonshadow_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Chart.vue?vue&type=template&id=40340c56&shadow
-var Chartvue_type_template_id_40340c56_shadow_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[(_vm.chartData)?_c('RootChart',{attrs:{"chartData":_vm.chartData,"chartOptions":_vm.options,"chartType":_vm.type}}):_vm._e()],1)}
-var Chartvue_type_template_id_40340c56_shadow_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Chart.vue?vue&type=template&id=3bcd24ab&shadow
+var Chartvue_type_template_id_3bcd24ab_shadow_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[(_vm.chartData)?_c('RootChart',{attrs:{"chartData":_vm.chartData,"chartOptions":_vm.options,"chartType":_vm.type}}):_vm._e()],1)}
+var Chartvue_type_template_id_3bcd24ab_shadow_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/Chart.vue?vue&type=template&id=40340c56&shadow
+// CONCATENATED MODULE: ./src/components/Chart.vue?vue&type=template&id=3bcd24ab&shadow
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/RootChart.vue?vue&type=template&id=7b3a8b36&
-var RootChartvue_type_template_id_7b3a8b36_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var RootChartvue_type_template_id_7b3a8b36_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('canvas',{attrs:{"id":"canvas","height":"400px"}})])}]
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/RootChart.vue?vue&type=template&id=68d0d379&
+var RootChartvue_type_template_id_68d0d379_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var RootChartvue_type_template_id_68d0d379_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('canvas',{attrs:{"id":"canvas","height":"400px"}})])}]
 
 
-// CONCATENATED MODULE: ./src/components/RootChart.vue?vue&type=template&id=7b3a8b36&
+// CONCATENATED MODULE: ./src/components/RootChart.vue?vue&type=template&id=68d0d379&
 
 // EXTERNAL MODULE: ./node_modules/chart.js/dist/Chart.js
 var Chart = __webpack_require__("30ef");
@@ -23081,28 +23085,33 @@ var Chart_default = /*#__PURE__*/__webpack_require__.n(Chart);
 //
 
 /* harmony default export */ var RootChartvue_type_script_lang_js_ = ({
+  name: 'RootChart',
   props: {
     chartType: String,
     chartData: Object,
     chartOptions: Object
   },
-  mounted: function mounted() {
+
+  mounted() {
     this.chartConstructor(this.chartType, this.chartData, this.chartOptions);
   },
+
   watch: {
-    chartData: function chartData() {
+    chartData() {
       this.chartConstructor(this.chartType, this.chartData, this.chartOptions);
     }
+
   },
   methods: {
-    chartConstructor: function chartConstructor(chartType, chartData, chartOptions) {
-      var chartElement = document.getElementById('canvas').getContext('2d');
+    chartConstructor(chartType, chartData, chartOptions) {
+      const chartElement = document.getElementById('canvas').getContext('2d');
       new Chart_default.a(chartElement, {
         type: chartType,
         data: chartData,
         options: chartOptions
       });
     }
+
   }
 });
 // CONCATENATED MODULE: ./src/components/RootChart.vue?vue&type=script&lang=js&
@@ -23117,13 +23126,13 @@ var Chart_default = /*#__PURE__*/__webpack_require__.n(Chart);
 
 var RootChart_component = normalizeComponent(
   components_RootChartvue_type_script_lang_js_,
-  RootChartvue_type_template_id_7b3a8b36_render,
-  RootChartvue_type_template_id_7b3a8b36_staticRenderFns,
+  RootChartvue_type_template_id_68d0d379_render,
+  RootChartvue_type_template_id_68d0d379_staticRenderFns,
   false,
   null,
   null,
   null
-  
+  ,true
 )
 
 /* harmony default export */ var RootChart = (RootChart_component.exports);
@@ -23140,7 +23149,60 @@ var RootChart_component = normalizeComponent(
 //
 
 /* harmony default export */ var Chartvue_type_script_lang_js_shadow = ({
-  props: ['type', 'json', 'api', 'options'],
+  name: 'Chart',
+  props: {
+    type: {
+      type: String
+    },
+    json: {
+      type: Object
+    },
+    api: {
+      type: String
+    },
+    options: {
+      type: Object,
+
+      // eslint-disable-next-line vue/require-valid-default-prop
+      default() {
+        return {
+          scales: {
+            xAxes: [{
+              stacked: true,
+              gridLines: {
+                display: false
+              }
+            }],
+            yAxes: [{
+              ticks: {
+                stepSize: 1,
+                callback: function (value, index, values) {
+                  if (value % Math.round(values[0] / 6) == 0) {
+                    return value;
+                  } else if (value === 0) {
+                    return value;
+                  }
+                }
+              } // stacked: true
+
+            }]
+          },
+          maintainAspectRatio: false,
+          legend: {
+            labels: {
+              boxWidth: 10
+            },
+            position: "top"
+          },
+          animation: {
+            duration: 2000,
+            easing: "easeInOutQuart"
+          }
+        };
+      }
+
+    }
+  },
   components: {
     RootChart: RootChart
   },
@@ -23166,13 +23228,38 @@ var RootChart_component = normalizeComponent(
     this.getChatData();
   },
 
+  mounted() {
+    if (!this.chartData) {
+      this.chartData = {
+        labels: ["Jan1", "Jan2", "Jan3", "Jan4", "Jan5", "Jan6", "Jan7"],
+        datasets: [{
+          label: "This week",
+          data: [12, 19, 10, 17, 6, 3, 7],
+          backgroundColor: "rgba(224, 248, 255, 0.4)",
+          borderColor: "#5cddff",
+          lineTension: 1,
+          order: 0,
+          pointBackgroundColor: "#5cddff"
+        }, {
+          label: "Last week",
+          data: [10, 25, 3, 25, 17, 4, 9],
+          backgroundColor: "rgba(241, 225, 197, 0.4)",
+          borderColor: "#ffc764",
+          lineTension: 0,
+          type: 'line',
+          order: 1,
+          pointBackgroundColor: "#ffc764"
+        }]
+      };
+    }
+  },
+
   methods: {
     async getChatData() {
       if (this.json) {
         this.chartData = this.json;
       } else if (this.api) {
         this.chartData = await this.getApiData();
-        console.log(this.chartData);
       } else {
         this.chartData = null;
       }
@@ -23198,8 +23285,8 @@ var RootChart_component = normalizeComponent(
 
 var Chartshadow_component = normalizeComponent(
   components_Chartvue_type_script_lang_js_shadow,
-  Chartvue_type_template_id_40340c56_shadow_render,
-  Chartvue_type_template_id_40340c56_shadow_staticRenderFns,
+  Chartvue_type_template_id_3bcd24ab_shadow_render,
+  Chartvue_type_template_id_3bcd24ab_shadow_staticRenderFns,
   false,
   null,
   null,
@@ -23208,12 +23295,12 @@ var Chartshadow_component = normalizeComponent(
 )
 
 /* harmony default export */ var Chartshadow = (Chartshadow_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/RootChart.vue?vue&type=template&id=766f682f&shadow
-var RootChartvue_type_template_id_766f682f_shadow_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var RootChartvue_type_template_id_766f682f_shadow_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('canvas',{attrs:{"id":"canvas","height":"400px"}})])}]
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/RootChart.vue?vue&type=template&id=f12f2340&shadow
+var RootChartvue_type_template_id_f12f2340_shadow_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var RootChartvue_type_template_id_f12f2340_shadow_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('canvas',{attrs:{"id":"canvas","height":"400px"}})])}]
 
 
-// CONCATENATED MODULE: ./src/components/RootChart.vue?vue&type=template&id=766f682f&shadow
+// CONCATENATED MODULE: ./src/components/RootChart.vue?vue&type=template&id=f12f2340&shadow
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/RootChart.vue?vue&type=script&lang=js&shadow
 //
@@ -23224,6 +23311,7 @@ var RootChartvue_type_template_id_766f682f_shadow_staticRenderFns = [function ()
 //
 
 /* harmony default export */ var RootChartvue_type_script_lang_js_shadow = ({
+  name: 'RootChart',
   props: {
     chartType: String,
     chartData: Object,
@@ -23264,8 +23352,8 @@ var RootChartvue_type_template_id_766f682f_shadow_staticRenderFns = [function ()
 
 var RootChartshadow_component = normalizeComponent(
   components_RootChartvue_type_script_lang_js_shadow,
-  RootChartvue_type_template_id_766f682f_shadow_render,
-  RootChartvue_type_template_id_766f682f_shadow_staticRenderFns,
+  RootChartvue_type_template_id_f12f2340_shadow_render,
+  RootChartvue_type_template_id_f12f2340_shadow_staticRenderFns,
   false,
   null,
   null,

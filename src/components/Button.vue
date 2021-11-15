@@ -3,6 +3,7 @@
 </template>
 <script>
 export default {
+   name: 'ButtonCustom',
    data() {
       return {
         label: 'Demo'

@@ -7,6 +7,7 @@
 <script>
 import Chart from "chart.js";
 export default {
+    name: 'RootChart',
     props:{
         chartType: String,
         chartData: Object,
