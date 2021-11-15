@@ -26,7 +26,7 @@
             datasets: [
               {
                 label: "Data 1",
-                data: [this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt()],
+                data: [2, 12, 9, 21, 3, 31, 21],
                 backgroundColor: "#0e37ec7e",
                 borderColor: "#0e37ec",
                 lineTension: 0,
@@ -34,7 +34,7 @@
               },
               {
                 label: "Data 2",
-                data: [this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt()],
+                data: [7, 2, 19, 16, 30, 1, 15],
                 backgroundColor: "#df80148a",
                 borderColor: "#df8013",
                 lineTension: 0,
@@ -42,7 +42,7 @@
               },
               {
                 label: "Date 3",
-                data: [this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt()],
+                data: [5, 6, 2, 9, 8, 12, 9],
                 borderColor: "#212121",
                 lineTension: 0,
                 type: 'line',

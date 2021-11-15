@@ -40635,12 +40635,12 @@ var staticRenderFns = []
 
 // CONCATENATED MODULE: ./src/App.vue?vue&type=template&id=60b2f799&scoped=true&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Chart.vue?vue&type=template&id=d097f2a0&
-var Chartvue_type_template_id_d097f2a0_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[(_vm.chartData)?_c('RootChart',{attrs:{"chartData":_vm.chartData,"chartOptions":_vm.options,"chartType":_vm.type}}):_vm._e()],1)}
-var Chartvue_type_template_id_d097f2a0_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Chart.vue?vue&type=template&id=c7067d38&
+var Chartvue_type_template_id_c7067d38_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[(_vm.chartData)?_c('RootChart',{attrs:{"chartData":_vm.chartData,"chartOptions":_vm.options,"chartType":_vm.type}}):_vm._e()],1)}
+var Chartvue_type_template_id_c7067d38_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/Chart.vue?vue&type=template&id=d097f2a0&
+// CONCATENATED MODULE: ./src/components/Chart.vue?vue&type=template&id=c7067d38&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.to-string.js
 var es_object_to_string = __webpack_require__("d3b7");
@@ -40890,21 +40890,21 @@ var component = normalizeComponent(
           labels: ["Jan1", "Jan2", "Jan3", "Jan4", "Jan5", "Jan6", "Jan7"],
           datasets: [{
             label: "Data 1",
-            data: [this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt()],
+            data: [2, 12, 9, 21, 3, 31, 21],
             backgroundColor: "#0e37ec7e",
             borderColor: "#0e37ec",
             lineTension: 0,
             pointBackgroundColor: "#0e2794"
           }, {
             label: "Data 2",
-            data: [this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt()],
+            data: [7, 2, 19, 16, 30, 1, 15],
             backgroundColor: "#df80148a",
             borderColor: "#df8013",
             lineTension: 0,
             pointBackgroundColor: "#864f0f"
           }, {
             label: "Date 3",
-            data: [this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt()],
+            data: [5, 6, 2, 9, 8, 12, 9],
             borderColor: "#212121",
             lineTension: 0,
             type: 'line',
@@ -41071,8 +41071,8 @@ var component = normalizeComponent(
 
 var Chart_component = normalizeComponent(
   components_Chartvue_type_script_lang_js_,
-  Chartvue_type_template_id_d097f2a0_render,
-  Chartvue_type_template_id_d097f2a0_staticRenderFns,
+  Chartvue_type_template_id_c7067d38_render,
+  Chartvue_type_template_id_c7067d38_staticRenderFns,
   false,
   null,
   null,
