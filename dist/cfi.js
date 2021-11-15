@@ -23058,12 +23058,12 @@ var Buttonshadow_component = normalizeComponent(
 )
 
 /* harmony default export */ var Buttonshadow = (Buttonshadow_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Chart.vue?vue&type=template&id=5b79e061&shadow
-var Chartvue_type_template_id_5b79e061_shadow_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[(_vm.chartData)?_c('RootChart',{attrs:{"chartData":_vm.chartData,"chartOptions":_vm.options,"chartType":_vm.type}}):_vm._e()],1)}
-var Chartvue_type_template_id_5b79e061_shadow_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Chart.vue?vue&type=template&id=58138d82&shadow
+var Chartvue_type_template_id_58138d82_shadow_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[(_vm.chartData)?_c('RootChart',{attrs:{"chartData":_vm.chartData,"chartOptions":_vm.options,"chartType":_vm.type}}):_vm._e()],1)}
+var Chartvue_type_template_id_58138d82_shadow_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/Chart.vue?vue&type=template&id=5b79e061&shadow
+// CONCATENATED MODULE: ./src/components/Chart.vue?vue&type=template&id=58138d82&shadow
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2194834c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/RootChart.vue?vue&type=template&id=6f9ad8c0&
 var RootChartvue_type_template_id_6f9ad8c0_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.chartData)?_c('div',{staticClass:"chart"},[_c('canvas',{attrs:{"id":"canvas","height":"400px"}})]):_vm._e()}
@@ -23091,27 +23091,23 @@ var Chart_default = /*#__PURE__*/__webpack_require__.n(Chart);
     chartData: Object,
     chartOptions: Object
   },
-
-  mounted() {
+  mounted: function mounted() {
     this.chartConstructor(this.chartType, this.chartData, this.chartOptions);
   },
-
   watch: {
-    chartData() {
+    chartData: function chartData() {
       this.chartConstructor(this.chartType, this.chartData, this.chartOptions);
     }
-
   },
   methods: {
-    chartConstructor(chartType, chartData, chartOptions) {
-      const chartElement = document.querySelector("canvas");
+    chartConstructor: function chartConstructor(chartType, chartData, chartOptions) {
+      var chartElement = document.querySelector("canvas");
       new Chart_default.a(chartElement, {
         type: chartType,
         data: chartData,
         options: chartOptions
       });
     }
-
   }
 });
 // CONCATENATED MODULE: ./src/components/RootChart.vue?vue&type=script&lang=js&
@@ -23257,32 +23253,6 @@ var RootChart_component = normalizeComponent(
     this.getChatData();
   },
 
-  mounted() {
-    if (!this.chartData) {
-      this.chartData = {
-        labels: ["Jan1", "Jan2", "Jan3", "Jan4", "Jan5", "Jan6", "Jan7"],
-        datasets: [{
-          label: "This week",
-          data: [12, 19, 10, 17, 6, 3, 7],
-          backgroundColor: "rgba(224, 248, 255, 0.4)",
-          borderColor: "#5cddff",
-          lineTension: 1,
-          order: 0,
-          pointBackgroundColor: "#5cddff"
-        }, {
-          label: "Last week",
-          data: [10, 25, 3, 25, 17, 4, 9],
-          backgroundColor: "rgba(241, 225, 197, 0.4)",
-          borderColor: "#ffc764",
-          lineTension: 0,
-          type: 'line',
-          order: 1,
-          pointBackgroundColor: "#ffc764"
-        }]
-      };
-    }
-  },
-
   methods: {
     async getChatData() {
       if (this.json) {
@@ -23314,8 +23284,8 @@ var RootChart_component = normalizeComponent(
 
 var Chartshadow_component = normalizeComponent(
   components_Chartvue_type_script_lang_js_shadow,
-  Chartvue_type_template_id_5b79e061_shadow_render,
-  Chartvue_type_template_id_5b79e061_shadow_staticRenderFns,
+  Chartvue_type_template_id_58138d82_shadow_render,
+  Chartvue_type_template_id_58138d82_shadow_staticRenderFns,
   false,
   null,
   null,
