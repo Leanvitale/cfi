@@ -11,6 +11,7 @@
   },
   "main": "dist/cfi.common.js",
   "unpkg": "dist/cfi.min.js",
+  "repository": "github.com:Leanvitale/cfi",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
